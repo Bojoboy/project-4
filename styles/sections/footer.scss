@@ -1,0 +1,26 @@
+footer {
+	height: 111px;
+  background-color: #313030;
+
+  p {
+  	@include p-light;
+  	color: #e0e0e0;
+  }
+
+  .fab {
+  	font-size: 32px;
+  	color: #ebebeb;
+  	padding-left: 17px;
+  }
+
+  .footer-section {
+  	height: 100%;
+  	display: flex;
+  	justify-content: space-between;
+  	align-items: center;
+
+  	.icons-footer {
+  		padding-right: 160px;
+  	}
+  }
+}

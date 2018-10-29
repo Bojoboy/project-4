@@ -1,0 +1,47 @@
+.get-in-touch {
+	background-color: #f4f0dd;
+	margin-top: 110px;
+	
+	h2 {
+		@include h2-normal;
+		text-transform: uppercase;
+	}
+
+	p {
+		@include p-light;
+		text-align: center;
+	}
+
+	.subscribe {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 512px;
+
+		input[type="name"] {
+			margin-right: 20px;
+			width: 521px;
+		  height: 79px;
+		  border: none;
+		  border-radius: 5px;
+		  background-color: #ffffff;
+		  box-sizing: border-box;
+		  @include p-light;
+		}
+
+		input[type="submit"] {
+			width: 214px;
+		  height: 79px;
+		  border: none;
+		  border-radius: 5px;
+		  background-color: #ff2d2d;
+		  color: #fff;
+		  text-transform: uppercase;
+		}
+
+		.subscribe-container {
+			padding-top: 62px;
+		}
+	}
+}

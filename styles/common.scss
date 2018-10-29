@@ -1,0 +1,52 @@
+@import 'utilities/normalize';
+@import 'utilities/animations';
+@import 'utilities/font-styles';
+@import 'utilities/colors';
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+ul li {
+	display: inline;
+	list-style: none;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+.container {
+	max-width: 1249px;
+	margin: 0 auto;
+}
+
+.page-top {
+	padding-top: 30px;
+	background-color: #f4f0dd;
+}
+
+.padding-right {
+	padding-right: 30px;
+}
+
+@import 'sections/header';
+@import 'parts/our-team';
+@import 'parts/company';
+@import 'parts/info-block';
+@import 'parts/products-images';
+@import 'parts/team-presentation';
+@import 'parts/get-in-touch';
+@import 'parts/send-message-section';
+@import 'sections/footer';

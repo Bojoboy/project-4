@@ -1,0 +1,84 @@
+@mixin h1-normal {
+	opacity: 0.8;
+  font-family: Arial;
+  font-size: 42px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.31;
+  letter-spacing: 0.4px;
+}
+
+@mixin h1-bold {
+	font-family: Arial;
+  font-size: 60px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: 6px;
+}
+
+@mixin p-normal {
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+}
+
+@mixin p-light {
+	opacity: 0.7;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+}
+
+@mixin p-bold {
+	opacity: 0.7;
+  font-family: Arial;
+  font-size: 22px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.09;
+  letter-spacing: 0.2px;
+}
+
+@mixin p-pretty {
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: 0.9px;
+}
+
+@mixin h2-normal {
+  opacity: 0.8;
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: 0.3px;
+}
+
+@mixin h3-normal {
+  opacity: 0.8;
+  font-family: Arial;
+  font-size: 17.9px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.89;
+  letter-spacing: 0.4px;
+}

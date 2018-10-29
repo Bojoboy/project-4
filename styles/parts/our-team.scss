@@ -1,0 +1,70 @@
+.our-team {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	padding-bottom: 100px;
+	
+	.team-info {
+		padding: 15px 15px 15px 0;
+		flex-basis: 50%;
+	
+		h1 {
+			@include h1-bold;
+		}
+		
+		p {
+			padding: 20px 0;
+			opacity: 0.7;
+		  font-family: Arial;
+		  font-size: 16px;
+		  font-weight: normal;
+		  font-style: normal;
+		  font-stretch: normal;
+		  line-height: 1.75;
+		  letter-spacing: normal;
+		}
+
+		button {
+			width: 227px;
+		  height: 55px;
+		  border-radius: 5px;
+		  border: none;
+		  background-color: #ff2d2d;
+		  font-family: Arial;
+		  font-size: 18px;
+		  font-weight: normal;
+		  font-style: normal;
+		  font-stretch: normal;
+		  line-height: 1.88;
+		  letter-spacing: 0.5px;
+		  color: #ffffff;
+		}
+	}
+	.video-container {
+		flex-basis: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		
+		.test-vid {
+			width: 551px;
+		  height: 356px;
+			position: relative;
+			padding-bottom: 56.25%;
+			padding-top: 0;
+			height: 0;
+		}
+
+		iframe {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+
+	}
+
+}

@@ -1,0 +1,34 @@
+.header {
+  opacity: 0.8;
+  background-color: #000000;
+}
+
+.navigation {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;	
+	justify-content: center;
+	
+	.nav-item {
+		padding: 30px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	  height: 100%;
+	  background-color: #000;
+	  transition: .5s ease;
+
+	  &:hover {
+	  	background-color: #ff3f40;
+	  	transition: background-color .5s ease;
+  	}
+  }
+}
+
+.header a {
+  @include p-normal;
+  color: #e0e0e0;
+	text-transform: uppercase;
+}

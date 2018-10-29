@@ -1,0 +1,94 @@
+.company {
+	padding-top: 110px;
+	border-bottom: 2px solid #ececec;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+
+	.company-info {
+		flex: 1 0 40%;
+		
+	
+		h1 {
+			margin: 0;
+			text-transform: uppercase;
+			@include h1-normal;
+		}
+		
+		p {
+			margin: 0;
+			padding: 20px 0;
+			@include p-light;
+		}
+
+		button {
+			width: 227px;
+		  height: 55px;
+		  border-radius: 5px;
+		  border: 2px solid #ff2d2d;
+		  background-color: #ffffff;
+		  font-family: Arial;
+		  font-size: 18px;
+		  font-weight: normal;
+		  font-style: normal;
+		  font-stretch: normal;
+		  line-height: 1.88;
+		  letter-spacing: 0.5px;
+		  color: #ff2d2d;
+		}
+
+	}
+
+	.pillow {
+		flex: 1 2 100px;
+	}
+
+	.company-description {
+		flex: 1 1 60%;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		flex-wrap: wrap;
+		
+		.fa, .fab {
+			font-size: 30px;
+			color: #ff3b4a;
+		}
+
+		.company-item {
+			flex-basis: 50%;
+		}
+
+		.company-item-1 {
+			// padding-right: 10px;
+		}
+
+		h2 {
+			opacity: 0.7;
+		  font-family: Arial;
+		  font-size: 24px;
+		  font-weight: normal;
+		  font-style: normal;
+		  font-stretch: normal;
+		  line-height: 1.2;
+		  letter-spacing: 0.2px;
+		}
+
+		p{
+			padding: 0 30px 30px 0;
+			opacity: 0.7;
+		  font-family: Arial;
+		  font-size: 16px;
+		  font-weight: normal;
+		  font-style: normal;
+		  font-stretch: normal;
+		  line-height: 1.75;
+		  letter-spacing: normal;
+		}
+	}
+}
